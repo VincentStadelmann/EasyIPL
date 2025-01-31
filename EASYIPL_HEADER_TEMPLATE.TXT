@@ -1,0 +1,25 @@
+$!****************************************************************************************            
+$! SCRIPT.COM
+$! 
+$!  Written by: Vincent Stadelmann 2012.06.06
+$!  Copyright (c) 2018 Vincent Stadelmann/EasyIPL
+$!  Do not duplicate or distribute without written permission by author.
+$! 
+$! VERSION HISTORY:
+$!  2012.10.26 Created
+$! 
+$! DESCRIPTION:
+$!  Close an object by inverting and slicewise complab
+$! 
+$! USAGE:
+$!  @ue:close__slw.com	'ipl_input' 'ipl_output' 'ipl_border' 'invert (true/false)' 'minvol,maxvol' 'value'
+$!
+$! PARAMETERS:
+$!  P1 : input aim file
+$!  P2 : output aim file
+$!  P3 : from vol...
+$!  P4 : to vol...
+$!  P5 : value object
+$!
+$!****************************************************************************************            
+$!*

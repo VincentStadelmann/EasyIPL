@@ -103,6 +103,7 @@ $ A:
 $ type sys$input
 ABS_THRESHOLD		Threshold an image with absolute value threshold
 ADD_AIMS		Add two up to seven AIMs into one
+ADD_GOBJS		Add from two up to seven GOBJs into one
 AIM_TO_3DTIF		Makes 3D rendering of a binary AIM with preset file
 AIM_TO_DCM		Convert an AIM into a series of DCM dicom files
 AIM_TO_GOBJ		Convert a binary AIM into a GOBJ mask

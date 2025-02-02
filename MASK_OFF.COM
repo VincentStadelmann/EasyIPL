@@ -51,11 +51,14 @@ $ sh sym p3
 $ sh sym p4
 $
 $! If MASK is GOBJ convert to AIM
+$
+$  __mff_gobj_converted_mask = "" ! declare variable
+$
 $  if (f$locate(".GOBJ", f$edit(p2, "upcase")) .lt. f$length(p2))
 $  then
 $    say "!! Mask is a GOBJ -> convert to AIM"
 $    __mff_gobj_converted_mask = p2 - ".GOBJ" + "__MFF_CONV.AIM"
-$    sh sym mask_name
+$    sh sym __mff_gobj_converted_mask
 $
 $    IPL_BATCH
 
@@ -139,7 +142,7 @@ $ ipl_batch
 $
 $ ! cleanup
 $ del/log '__mff_tmp_mask';*
-$ if ('__mff_gobj_converted_mask' .nes. "") then del/log '__mff_gobj_converted_mask';*
+$ if (__mff_gobj_converted_mask .nes. "") then del/log '__mff_gobj_converted_mask';*
 $
 $!#
 $ say "!! MASK_OFF.COM: completed	 "

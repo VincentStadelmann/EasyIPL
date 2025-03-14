@@ -25,15 +25,17 @@ $!
 $ say = "write sys$output"
 $!*
 $
+$ say " "
+$ @ez:header
+$ say " "
+$
 $!-------------------------------------------------------------
 $! Display help intro
 $!-------------------------------------------------------------
 $ type sys$input
  
 ==============================================================================
- 
-                        EasyIPL
- 
+  
   AVAILABLE SCRIPTS:
  
 $
@@ -177,6 +179,8 @@ GOBJ_TO_AIM		Create binary AIM from GOBJ mask
 $ if (p1_is_one_letter .eqs. "TRUE") then goto terminate
 $ H:  
 $ type sys$input
+HELP			Display help of a function
+
 $ if (p1_is_one_letter .eqs. "TRUE") then goto terminate
 $ I:  
 $ type sys$input
@@ -193,7 +197,8 @@ $ type sys$input
 $ if (p1_is_one_letter .eqs. "TRUE") then goto terminate
 $ L:  
 $ type sys$input
-LIST_OUTPUT_PARAMETERS	Searches output parameters tags in template file
+LIST                    List all EasyIPL functions
+LIST_OUTPUT_PARAMETERS	List output parameters from a results template file
 
 $ if (p1_is_one_letter .eqs. "TRUE") then goto terminate
 $ M:  

@@ -41,15 +41,11 @@ $! General help message EasyIPL
 $!-------------------------------------------------------------
 $ help_intro:
 $ say " "
+$ @ez:header
+$ say " "
 $ type sys$input
  
 ==============================================================================
-
-           _/_/_/  _/_/_/    _/                                     
-            _/    _/    _/  _/             
-    Easy   _/    _/_/_/    _/                     
-        _/_/_/  _/        _/_/_/_/              
- 
  
   EasyIPL is a collection of macros designed for fast and efficient
   IPL scripts development on SCANCO environments. 
@@ -59,7 +55,7 @@ $ type sys$input
 
   COPYRIGHTS:
    Written by: Vincent Stadelmann 2012.06.06
-   Copyright (c) 2021 Vincent Stadelmann/EasyIPL
+   Copyright (c) 2025 Vincent Stadelmann/EasyIPL
    Do not duplicate or distribute without written permission by author.
 
   USAGE:

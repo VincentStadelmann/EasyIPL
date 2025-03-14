@@ -7,7 +7,7 @@ $!  Do not duplicate or distribute without written permission by author.
 $!
 $! 
 $! USAGE:
-$!   @ez:ez__init.com 
+$!   @ez:ez__init 
 $!
 $! DESCRIPTION:
 $!  Initializes common EZ parameters

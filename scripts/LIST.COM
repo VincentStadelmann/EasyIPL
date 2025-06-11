@@ -134,6 +134,7 @@ COMPLAB			Component selection based on label rank
 COMPUTE_BONE		Compute BV, BV/TV, Density & write into UCT_LIST DB
 COMPUTE_DIFFERENCE	Computes the differences between two binary AIMs
 COMPUTE_DT_TH		Compute thickness map & write into UCT_LIST DB
+COMPUTE_MOMENT_2D		Compute thickness map & write into UCT_LIST DB
 CONCAT_AIMS		Concat/overlay two up to seven AIMs into one
 CONTOUR			Contour Nth or Nth to Mth largest object(s) within image
 CONVERT			Converts image to char or short type

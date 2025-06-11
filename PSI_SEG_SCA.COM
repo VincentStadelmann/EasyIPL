@@ -1,2 +1,0 @@
-$ submit/noprint/notify/que=sys$fast ue:rapidos_psi_reg2cad.com  /params=(disk21:[vincent.data.00000109.00000291]h0000148.aim,disk21:[vincent.data.00000089.00000288]t0004217.aim) /log=disk21:[vincent.data.00000109.00000291]h0000148_reg.log
-$ submit/noprint/notify/que=sys$fast ue:rapidos_psi_reg2cad.com  /params=(disk21:[vincent.data.00000110.00000292]h0000149.aim,disk21:[vincent.data.00000089.00000288]t0004217.aim) /log=disk21:[vincent.data.00000110.00000292]h0000149_reg.log

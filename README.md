@@ -33,6 +33,7 @@ Edit your `MICROCT_SETUP_USER.COM` file to include the following lines:
 ```dcl
 $! EasyIPL
 $   DEFINE EZ ADISK1:[MICROCT.EASYIPL]
+$   EZ    == "@EZ:HELP.COM"
 $   MJ    == "@ADISK1:[MICROCT.EASYIPL]MONITOR_JOB.COM "
 $   ICALC == "$UT:ICALC.EXE"
 ```

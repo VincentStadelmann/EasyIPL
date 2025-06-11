@@ -2,12 +2,10 @@
 
 This document helps you get started using **EasyIPL** on a SCANCO microCT system running OpenVMS.
 
----
 
 ## Step 1: Log In
 Log in to your **microCT account** on the **OpenVMS** system.
 
----
 
 ## Step 2: Launch EasyIPL
 
@@ -55,7 +53,7 @@ _/_/_/_/   _/_/_/_/
 ==============================================================================
 ```
 
----
+
 
 ## Step 3: List Available Scripts
 
